@@ -1,0 +1,22 @@
+html{
+    scroll-behavior: smooth;
+    background-image:url(https://i.pinimg.com/564x/e6/ff/f8/e6fff886a30f795deb3bd36fccd084e5.jpg)
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    padding: 0;
+}
+

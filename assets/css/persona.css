@@ -1,0 +1,45 @@
+.persona {
+  padding: 2rem 1rem 1rem;
+  margin-bottom: 4rem;
+}
+
+.contenedor__persona {
+  background-color: #eaf2fdcd;
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.persona__titulo {
+  color: #464646;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.persona__descripcion {
+  margin-bottom: 0.775rem;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #202020;
+}
+
+@media screen and (max-width: 768px) {
+  .persona {
+    padding: 2rem 0;
+    margin: 0;
+  }
+  .contenedor__persona {
+    width: auto;
+    padding: 2rem;
+    border-radius: 0;
+  }
+
+  .persona__titulo {
+    font-size: 1.375rem;
+  }
+  .persona__descripcion {
+    font-size: 0.875rem;
+  }
+}
